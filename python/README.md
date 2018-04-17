@@ -38,8 +38,42 @@
                 * notebook environments
             * Jupyter (manage codes and files online)
         * 8. Getting the notebooks and course materials
-            * 
+            * Course note download:[Github](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp)
+        * 9. Git and Github Overview
     * 3. Python Object and Data Structure
+        * 10. Introduction to Python data types
+            * Data type
+                * Integer :`int` 3,300 
+                * Floating poin:`float` 2.3 ,4.6
+                * strings:`str` "hello","summer" "2000"
+                * Lists:`list` [10,"hello",2003.5]
+                * Dictionaries:`dict`unordered key :value pains {"mykey":"value","name":"Yaakov"}
+                * Tuples:`tup` (10,"hello",2003.5)
+                * Sets:`set` {"a","b"}
+                * Booleans:`bool` True or False 
+        * 11. Numbers
+            * integer
+            * float
+        * 13. Variable Assignments
+            * Rules for Variable name: 
+                * 1. cannot start with a number
+                * 2. there can be no spaces in the name, use `_` instead
+                * 3. can't use any of those symbols :``` """''',<>/?\|!@#$  %^&~-+```
+                * 4. names are lower case
+                * 5. Don't use some names that have special meaning on python 
+        * 14. INtroduction to strings
+            * slice: `[start:stop:step]`
+            * new line `\n`
+            * tab `\t`
+            * string length `len()`
+        * 15. Indexing and Slicing with string
+            * indexsing : ```for mystring='Hello world' mystring[0]='H'```
+            * `mystring[2:]`
+            * `mystring[:3]` (upto but not including)
+            * `mystring[3:5]`
+            * `mystring[::]`
+            * `mystring[::2]` (start:stop:step)
+            * if mystring='abcdefghijk' then mystring[::-1]=`kjihgfedcba` 
     * 4. Python Comparison Operators
     * 5. Python Statements
     * 6. Methods and Functions

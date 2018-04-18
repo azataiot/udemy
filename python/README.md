@@ -73,7 +73,38 @@
             * `mystring[3:5]`
             * `mystring[::]`
             * `mystring[::2]` (start:stop:step)
-            * if mystring='abcdefghijk' then mystring[::-1]=`kjihgfedcba` 
+            * if mystring='abcdefghijk' then mystring[::-1]=`kjihgfedcba`
+        * 16. String Properties and Methods
+            * How do I create comments in my code? (You can use the hashtag # to create comments in your code)
+            * Strings are immutable Strings are not mutable! (meaning you can't use indexing to change individual elements of a string)
+            * '2'+'3'='23'
+            * 2+3=5
+            * X='Hello World' 
+            * X.    (X. and the press tab in the ide we can have alot of methods there)
+                * `X.upper() `
+                * `X.lower()`
+                *  `X.split()`
+                *  `X.split(i)`
+        * 17. Strings -FAQ
+        * 18. Print Formatting with Strings
+            * methods:
+                * `.format()` ![`.format()`](img/python3_.format().png) ![](img/python3-.format()2.png) ![](img/python3_.format()_using_key_words.png) 
+                * `f-string()`  ![](img/f-string_method.png) 
+                * `.format()` for float formating ![](img/python3-.format()_float1.png) ![](img/python3-.format()_float2.png) 
+        * 20. Lists in Python
+            * operations:
+                * `my_list=[1,2,3]` or `my_list = [123,'hello',34.2]` 
+                * `len(my_list)`
+                * ![](img/python3_list.png)
+                * lists can be added : `my_list + another_list` `new_list=my_list+another_list`
+                * indexing works for list ` my_list[1]`
+                *  `my_list.append('six')` :![list append](img/list_append.png)  
+                *  removing items from the list ,we use `pup` mtehod : `new_list.pup(1) ![pup method](img/list_pup.png) 
+                *  `.sort()` method : `my_list.sort()` [1,3,5,7]
+                *  `.reverse()`method  : `my_list.reverse()`   [7,5,3,1]
+                *  FAQ:
+                    *  Q:1. How do I index a nested list? For example if I want to grab 2 from [1,1,[1,2]]?
+                    *  A:You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] . We'll discover later on more nested objects and you will be quizzed on them later!
     * 4. Python Comparison Operators
     * 5. Python Statements
     * 6. Methods and Functions

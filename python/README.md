@@ -105,6 +105,7 @@
                 *  FAQ:
                     *  Q:1. How do I index a nested list? For example if I want to grab 2 from [1,1,[1,2]]?
                     *  A:You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] . We'll discover later on more nested objects and you will be quizzed on them later!
+                    *  
     * 4. Python Comparison Operators
     * 5. Python Statements
     * 6. Methods and Functions

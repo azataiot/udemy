@@ -105,7 +105,48 @@
                 *  FAQ:
                     *  Q:1. How do I index a nested list? For example if I want to grab 2 from [1,1,[1,2]]?
                     *  A:You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] . We'll discover later on more nested objects and you will be quizzed on them later!
-                    *  
+        * 22. Dixtionaries 
+                * syntax: `{'key1':'value1','key2':'value2'}` 
+                * hwne to choose dictionary and list ?
+                    * dictionary : ` Obejects retrieved by key name`
+                    * list:` Objects retrieved by location`
+                    * calling value: ex:`my_dic = { 'key1':'value1','key2':'value2'} my_dic['key1']`
+        * 24. Tuples with Python
+            * differences with lists: 
+                * lists: `mutable`
+                * tuple: immutability ` one an element is inside a tuple ,it can not be reassigned` 
+                * tuples use parenthesis 
+                * tuple ` t=(1,2,3)` 
+                * methods : 
+                    * index `t.index()` 
+                    * count `t.count()`
+                * we use tuple no more than lists just in case we afraid to change resign the value incounciesly .
+                * there are only two methods for tuples!
+        * 25. Sets 
+            * definition: ` sets are unordered collection of` **unique** `elements` .meaning there **onlyone** representative of the same object.
+            * examples: ``` myset = set()```
+            if I want to add some objects to the set ,use **add** method `myset.add(1)` . 
+            * the elements in the sets are unique ,like we already have myset={1,2} ,after we want to add `myset.add(2)` dosent make sense because after this ,objects in the set are still {1,2} .
+            * make list to the set : ` my-list=[1,1,1,1,2,2,2,2,3,3,3,3] ` and then ` set(my_list) = {1,2,3}` 
+            * NOte: sets don't have an order !!!
+        * 26. Booleans in Python
+            * only **True** or **False** remember that the `True` and the `False` are both in capital word.
+        * 27. I/O with Basic Files in Python
+            * methods:
+                * **open** : `myfile = open('myfile.txt')`
+                * **read** : `myfile.read()`
+                * **readlines** :`myfile.readlines()`
+                * **close** : ``` myfile.open('test.txt') as my_new_file:
+                    contents = my_new_file.read()```
+            * Notes: 
+                * ![](img/read_file_from_any-location.gif) 
+                * Reading,Writing,Appending Modes:![](img/rwa.gif)       
+            * Errors:
+                * FileNotFoundError :
+                    1. wrong file name.
+                    2. didn't provide the correct file path.
+        * 29. Python Objects and Data Structures Assessment Test Overview
+        * 30. Solutions for Python Objects and Data Structures Assessment Test Overview
     * 4. Python Comparison Operators
     * 5. Python Statements
     * 6. Methods and Functions

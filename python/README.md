@@ -107,6 +107,7 @@
                     *  A:You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] . We'll discover later on more nested objects and you will be quizzed on them later!
                     *  
     * 4. Python Comparison Operators
+        * 31. Comparison Operators in Python
     * 5. Python Statements
     * 6. Methods and Functions
     * 7. Milestone Project -1
